@@ -4,8 +4,8 @@ const TodoList = ({ list, remove }) => {
       {list?.length > 0 ? (
         <ul className="todo-list">
           {list.map((entry, index) => (
-            <div className="todo">
-              <li key={index}> {entry} </li>
+            <div className="todo" key={index}>
+              <li> {entry} </li>
 
               <button
                 className="delete-button"
