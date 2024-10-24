@@ -1,1 +1,6 @@
 node_modules
+
+# Next.js specific files and directories
+.next
+next-env.d.ts
+dist
